@@ -1,3 +1,12 @@
+
+all();
+
+function all() {
+seatDist();
+runGuide();
+stripGuide();
+}
+
 //Need to add reduction guides
 
 var reel = 3.27; //Shimano Sahara 1000 DIMs
@@ -26,10 +35,5 @@ function runGuide() {
   //alert("Measuring down from tip top, place 1st running guide " + guide1 + " inches from the tip top." + " Place 2nd running guide down " + guide2 + " inches from previous guide." + " Place 3rd running guide down " + guide3 + " inches from previous guide." + " Place 4th running guide down " + guide4 + " inches from previous guide." + " Place 5th running guide down " + guide5 + " inches from previous guide.");
 }
 
-function all() {
-seatDist();
-runGuide();
-stripGuide();
-}
 
-all();
+

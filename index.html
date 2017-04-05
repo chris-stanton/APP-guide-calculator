@@ -1,31 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+      <title>Solo-Project</title>
+        <script type="text/javascript" src="./assets/vendor/angular.min.js"></script>
+        <script type="text/javascript" src="./assets/vendor/angular-route.min.js"></script>
 
-<html lang="en">
- <head>
-  <meta charset="utf-8">
-  <link type="text/css" rel="stylesheet" href="styles.css">
-  <script type="text/javascript" src="script.js"></script>
-  <title>Concept Guide Spacing Calculator</title>
- </head>
+        <script type="text/javascript" src="./scripts/client.js"></script>
 
- <body>
-   <header>
-   </header>
+        <script type="text/javascript" src="./scripts/factories/factory.factory.js"></script>
 
-   <nav>
-   </nav>
+        <script type="text/javascript" src="./scripts/controllers/spacing.controller.js"></script>
 
-   <aside class="">  <!--Name Attribute-->
-   </aside>
+        <link rel="stylesheet" href="./assets/vendor/bootstrap.min.css"/><!-- BOOTSTRAP -->
+        <link rel="stylesheet" href="./styles/styles.css"/><!-- BOOTSTRAP -->
 
-   <article class="">  <!--Name Attribute-->
-   </article>
+        <link rel="stylesheet" href="assets/vendor/blaze.min.css">  <!-- BLAZE CSS -->
 
-   <main>
-   </main>
+        <link rel="stylesheet" href="assets/vendor/animate.css"><!-- ANIMATE CSS -->
 
-   <footer>
-   </footer>
+        <script src="./assets/vendor/notyf.min.js" type="text/javascript"></script><!-- NOTYF -->
+        <link rel="stylesheet" type="text/css" href="./assets/vendor/notyf.min.css"><!-- NOTYF -->
 
- </body>
+        <script src="./assets/vendor/sweetalert.min.js"></script><!-- SWEETALERT -->
+        <link rel="stylesheet" type="text/css" href="./assets/vendor/sweetalert.css"><!-- SWEETALERT -->
+
+  </head>
+  <body>
+    <nav ng-include="'views/templates/nav.html'"></nav>
+    <main ng-view></main>
+
+
+
+  </body>
+  <footer ng-include="'views/templates/footer.html'"></footer>
 </html>
+

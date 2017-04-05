@@ -1,0 +1,26 @@
+{
+  "name": "concept-guide-spacing-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris-stanton/concept-guide-spacing-calculator.git"
+  },
+  "author": "Chris Stanton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris-stanton/concept-guide-spacing-calculator/issues"
+  },
+  "homepage": "https://github.com/chris-stanton/concept-guide-spacing-calculator#readme",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "pg": "^6.1.5"
+  }
+}
